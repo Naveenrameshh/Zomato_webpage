@@ -1,0 +1,70 @@
+body {
+  overflow: hidden;
+}
+
+.main {
+  background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  position: relative;
+}
+
+.name {
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+}
+
+.after {
+  color: white;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  right: 0;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 130px;
+}
+
+.box {
+  position: relative;
+  margin-top: 120px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+  .box {
+    display: none;
+  }
+  .main{
+    background-position: right;
+  }
+  /*.name{
+    display: block;
+    top: -150px;
+    /*left: -500px;*/
+  }*/
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+img {
+  height: 50px;
+  width: 30px;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+}
